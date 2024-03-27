@@ -20,6 +20,88 @@ ul {
 }
 
 body {
-  margin: 0;
-  font-family: sans-serif;
+  margin: 24px;
+  background-color: #0D192C;
+  color: #8BACD9;
+}
+
+.card {
+  width: 327px;
+  height: 543px;
+  border-radius: 15px;
+  background-color: #15263F;
+  padding: 22px;
+}
+
+.image-container {
+  width: 278px;
+  height: 278px;
+  border-radius: 8px; 
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  font-size: 22px;
+}
+
+.text {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+  font-size: 18px;
+  line-height: 26px;
+  width: 278px;
+  height: 52px;
+}
+
+.text-container {
+
+}
+
+.ethereum {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #00FFF8;
+  font-size: 15px;
+}
+
+.time {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.avatar {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #8BACD9;
+  font-size: 15px;
+}
+
+.avatar::after {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 15px 
+}
+
+.icon {
+
+}
+
+.icon-container {
+
 }
