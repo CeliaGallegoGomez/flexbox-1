@@ -60,7 +60,7 @@ body {
 }
 
 .text-container {
-  
+
 }
 
 .ethereum {
@@ -72,6 +72,14 @@ body {
   font-size: 15px;
 }
 
+.avatar-container {
+  width: 219px;
+  height: 33px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .time {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -80,7 +88,7 @@ body {
   font-size: 15px;
 }
 
-.avatar {
+.creation {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -89,7 +97,12 @@ body {
   font-size: 15px;
 }
 
-.avatar::after {
+.img-avatar {
+  width: 33px;
+  height: 33px;
+}
+
+.name {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
