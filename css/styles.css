@@ -115,22 +115,22 @@ body {
   width: 278px;
   height: 19px;
   display: flex;
-  justify-content: space-around; 
-  align-items: center;
-}
-
-.time-container {
-  display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 92.69px;
-  height: 19px;
+  align-items: stretch;
 }
 
 .ethereum-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 88.48px;
+  height: 19px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92.69px;
   height: 19px;
 }
