@@ -111,10 +111,26 @@ body {
   font-size: 15px 
 }
 
-.icon {
-
+.container {
+  width: 278px;
+  height: 19px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
 }
 
-.icon-container {
+.time-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 92.69px;
+  height: 19px;
+}
 
+.ethereum-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 88.48px;
+  height: 19px;
 }
