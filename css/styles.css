@@ -33,10 +33,22 @@ body {
   padding: 22px;
 }
 
+@media screen and (min-width: 768px) {
+  .card {
+    width: 350px;
+    height: 596px;
+  }
+  
+}
+
 .image-container {
   width: 278px;
   height: 278px;
   border-radius: 8px; 
+}
+
+.image-container:hover {
+  background-image: url();
 }
 
 .title {
@@ -59,10 +71,6 @@ body {
   height: 52px;
 }
 
-.text-container {
-
-}
-
 .ethereum {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -78,6 +86,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 16px;
 }
 
 .time {
@@ -86,6 +95,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
+  margin:0px;
 }
 
 .creation {
@@ -115,8 +125,9 @@ body {
   width: 278px;
   height: 19px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
+  margin-bottom: 16px;
 }
 
 .ethereum-container {
@@ -133,4 +144,8 @@ body {
   align-items: center;
   width: 92.69px;
   height: 19px;
+}
+
+.line {
+  border-top: 1px solid #2E405A;
 }
